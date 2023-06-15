@@ -1,119 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="css/main.css"> -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>TechUp</title>
-  </head>
-
-  <body class="bg-cover bg-center" style="background-image: url('img/BG.jpg')">
-    <div class="h-3">
-      <img src="img/BG.jpg" />
+    <title>Techup</title>
+</head>
+<body class="font-inter">
+    <div class="realtive flex justify-between items-center">
+      <img src="img/bg.jpg" alt="background" class="absolute h-full w-full top-0 left-0 -z-10">
+      <img src="img/plane.png" alt="plane" class="absolute top-0 right-0 object-cover opacity-60">
+        <div class="container mx-auto h-screen">
+            <div class="h-full flex justify-between items-center">
+                <div class="grid grid-cols-2 gap-12 items-end">
+                    <div>
+                        <p class="font-medium text-2xl">Lincoln</p>
+                        <div class="flex items-center space-x-4 mt-4">
+                            <img src="icons/address.svg" alt="phone" class="bg-rose-500 rounded-full p-2">
+                            <p class="text-lg font-normal text-neutral-900 leading-6">
+                                6 Hilltop Road,
+                                <br><span class="font-medium">Lincoln</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-4">
+                            <img src="icons/phone.svg" alt="phone" class="bg-amber-500 rounded-full p-2">
+                            <p class="text-lg font-normal text-neutral-900 leading-6">
+                                478-921-6160
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-medium text-2xl">Oakdale</p>
+                        <div class="flex items-center space-x-4 mt-4">
+                            <img src="icons/address.svg" alt="direction" class="bg-sky-500 rounded-full p-2">
+                            <p class="text-lg font-normal text-neutral-900 leading-6">
+                                1798 Mill Road,
+                                <br><span class="font-medium">Oakdale</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-4">
+                            <img src="icons/phone.svg" alt="phone" class="bg-teal-500 rounded-full p-2">
+                            <p class="text-lg font-normal text-neutral-900 leading-6">
+                                415-970-5692
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-medium text-2xl">Coleman</p>
+                        <div class="flex items-center space-x-4 mt-4">
+                            <img src="icons/address.svg" alt="direction" class="bg-amber-500 rounded-full p-2">
+                            <p class="text-lg font-normal text-neutral-900 leading-6">
+                                27410 7th Street East,
+                                <br><span class="font-medium">Coleman</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-4">
+                            <img src="icons/mobile.svg" alt="mobile" class="bg-rose-500 rounded-full p-2">
+                            <p class="text-lg font-normal text-neutral-900 leading-6">
+                                704-504-7055
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="icons/logo.svg" alt="logo" />
+            </div>
+        </div>
     </div>
-    <div class="flex justify-center items-center h-screen">
-      <div class="grid grid-cols-3">
-        <div class="w-96">
-          <!-- Left Side -->
-          <div class="space-y-20">
-            <div class="flex space-x-4">
-              <div>
-                <p class="mb-2 translate-x-1">Lincoln</p>
-                <div class="flex items-start">
-                  <img
-                    class="w-16 h-16"
-                    src="icons/address.svg"
-                    alt="Address SVG"
-                  />
-                  <div class="ml-2">
-                    <p>6 Hilltop Road,</p>
-                    <p>Lincoln</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex space-x-4">
-              <div>
-                <p class="mb-2">Oakdale</p>
-                <div class="flex items-start">
-                  <img
-                    class="w-16 h-16"
-                    src="icons/address2.svg"
-                    alt="Address2 SVG"
-                  />
-                  <div class="ml-2">
-                    <p>1798 Mill Road,</p>
-                    <p>Oakdale</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex space-x-4">
-              <div>
-                <p class="mb-2">Coleman</p>
-                <div class="flex items-start">
-                  <img
-                    class="w-16 h-16"
-                    src="icons/address3.svg"
-                    alt="Address3 SVG"
-                  />
-                  <div class="ml-2">
-                    <p>27410 7th Street East,</p>
-                    <p>Coleman</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <!-- Middle -->
-          <div class="space-y-20">
-            <div class="flex space-x-4">
-              <div class="flex items-center">
-                <img
-                  class="w-16 h-16 transform translate-y-8"
-                  src="icons/phone.svg"
-                  alt="Phone SVG"
-                />
-                <div class="ml-2 transform translate-y-8">
-                  <p>478-921-6160</p>
-                </div>
-              </div>
-            </div>
-            <div class="flex space-x-4">
-              <div class="flex items-center">
-                <img
-                  class="w-16 h-16 transform translate-y-16"
-                  src="icons/phone2.svg"
-                  alt="Phone2 SVG"
-                />
-                <div class="ml-2 transform translate-y-16">
-                  <p>415-970-5692</p>
-                </div>
-              </div>
-            </div>
-            <div class="flex space-x-4">
-              <div class="flex items-center">
-                <img
-                  class="w-16 h-16 transform translate-y-24"
-                  src="icons/phone3.svg"
-                  alt="Phone3 SVG"
-                />
-                <div class="ml-2 translate-y-24">
-                  <p>704-504-7055</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <!-- Right Side -->
-        </div>
-      </div>
-    </div>
-  </body>
+</body>
 </html>

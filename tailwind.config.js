@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./components/**/*js", "./pages/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        base: '1.125rem'
+      }
+    },
   },
   corePlugins: {
     container: false,
